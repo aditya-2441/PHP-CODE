@@ -1,0 +1,9 @@
+<html>
+    <body>
+        <?php
+        $x=300;
+        $y=20;
+        $z=$x<=>$y;
+        echo($z);?>
+    </body>
+</html>
