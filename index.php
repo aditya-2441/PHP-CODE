@@ -238,20 +238,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <div class="form-section">
                     <div class="form-group">
                         <label>Student Name</label>
-                        <input type="text" name="name" placeholder="e.g. John Doe" required>
+                        <input type="text" name="name" placeholder="e.g. Aditya Singh" required>
                     </div>
                     <div class="form-group">
                         <label>Roll Number</label>
-                        <input type="text" name="roll" placeholder="e.g. 101" required>
+                        <input type="text" name="roll" placeholder="e.g. 37" required>
                     </div>
                 </div>
 
                 <div class="form-section">
-                    <div class="form-group"><label>Subject 1</label><input type="number" name="sub1" min="0" max="100" required></div>
-                    <div class="form-group"><label>Subject 2</label><input type="number" name="sub2" min="0" max="100" required></div>
-                    <div class="form-group"><label>Subject 3</label><input type="number" name="sub3" min="0" max="100" required></div>
-                    <div class="form-group"><label>Subject 4</label><input type="number" name="sub4" min="0" max="100" required></div>
-                    <div class="form-group"><label>Subject 5</label><input type="number" name="sub5" min="0" max="100" required></div>
+                    <div class="form-group"><label>PHP</label><input type="number" name="sub1" min="0" max="100" required></div>
+                    <div class="form-group"><label>Advanced JAVA</label><input type="number" name="sub2" min="0" max="100" required></div>
+                    <div class="form-group"><label>DAA</label><input type="number" name="sub3" min="0" max="100" required></div>
+                    <div class="form-group"><label>DS</label><input type="number" name="sub4" min="0" max="100" required></div>
+                    <div class="form-group"><label>DCN</label><input type="number" name="sub5" min="0" max="100" required></div>
                 </div>
 
                 <div class="form-section">
