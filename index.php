@@ -1,19 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Favorite City Form</title>
-</head>
-<body>
+<?php include 'header.php'; ?>
 
-    <h2>Which is your favorite city?</h2>
-    
-    <form action="welcome.php" method="POST">
-        <label for="city">Enter your favorite city:</label><br><br>
-        <input type="text" id="city" name="cityName" required><br><br>
-        <input type="submit" value="Submit">
-    </form>
+<div class="card">
+    <h1>Online Assignment Submission System</h1>
+    <p>Welcome! Use the links below to submit assignments or manage submissions.</p>
+    <p><a class="button-link" href="assignment_form.php">Student Submission Form</a></p>
+    <p><a class="button-link" href="teacher_dashboard.php">Teacher Dashboard</a></p>
+    <p><a class="button-link" href="archive_assignments.php">Archive Old Assignment Folders</a></p>
+</div>
 
-</body>
-</html>
+<div class="card">
+    <h2>Getting Started</h2>
+    <ul>
+        <li>Go to Student Submission Form and fill in details.</li>
+        <li>After upload, you will be directed to confirmation page.</li>
+        <li>Teacher Dashboard displays list of uploaded files and records.</li>
+    </ul>
+</div>
+
+<?php include 'footer.php'; ?>
